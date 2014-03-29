@@ -1,0 +1,21 @@
+language: objective-c
+
+env:
+    global:
+        - PROJECT_PATH="DemoApplication.xcodeproj"
+        - DEVICE="iPhone Retina (3.5-inch)"
+        - VERSION="7.0"
+        - PASSWORD="unused" # Currently Travis works without a password but this may change.
+        - OUTPUT_DIR="output"
+
+before_install:
+    - git submodule update --init --recursive
+    - rake install --rakefile Integration\ Tests/Subliminal/Rakefile DOCS=no
+
+script: >
+    "Integration Tests/Subliminal/Supporting Files/CI/subliminal-test"
+    -project "$PROJECT_PATH" \
+    -sim_device "$DEVICE" \
+    -sim_version "$VERSION" \
+    -login_password "$PASSWORD" \
+    -output "$OUTPUT_DIR"
