@@ -32,7 +32,7 @@
 		505523E418E3EFC5000DF8E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5046CEB018E3D787000395AA /* Images.xcassets */; };
 		505523E518E3EFC5000DF8E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5046CEA118E3D787000395AA /* InfoPlist.strings */; };
 		505523E618E3EFC5000DF8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5046CEAA18E3D787000395AA /* Main.storyboard */; };
-		50A189B318E776DD0098C446 /* Integration Tests.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50A189B218E776DD0098C446 /* Integration Tests.xcconfig */; };
+		50A189B518E7774F0098C446 /* Integration Tests.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50A189B418E7774F0098C446 /* Integration Tests.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +103,7 @@
 		5046CEC318E3D787000395AA /* DemoApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoApplicationTests.m; sourceTree = "<group>"; };
 		505286D018E53CCA0060C210 /* ExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTest.m; path = "Integration Tests/ExampleTest.m"; sourceTree = "<group>"; };
 		505523EA18E3EFC5000DF8E2 /* DemoApplication copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoApplication copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50A189B218E776DD0098C446 /* Integration Tests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Integration Tests.xcconfig"; sourceTree = "<group>"; };
+		50A189B418E7774F0098C446 /* Integration Tests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Integration Tests.xcconfig"; path = "../blahc/Subliminal/Supporting Files/Xcode/Integration Tests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,7 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				505286D018E53CCA0060C210 /* ExampleTest.m */,
-				50A189B218E776DD0098C446 /* Integration Tests.xcconfig */,
+				50A189B418E7774F0098C446 /* Integration Tests.xcconfig */,
 				501529D718E47B1000C2BCC0 /* Subliminal.xcodeproj */,
 			);
 			name = "Integration Tests";
@@ -387,7 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A189B318E776DD0098C446 /* Integration Tests.xcconfig in Resources */,
+				50A189B518E7774F0098C446 /* Integration Tests.xcconfig in Resources */,
 				505523E418E3EFC5000DF8E2 /* Images.xcassets in Resources */,
 				505523E518E3EFC5000DF8E2 /* InfoPlist.strings in Resources */,
 				505523E618E3EFC5000DF8E2 /* Main.storyboard in Resources */,
@@ -607,7 +607,6 @@
 		};
 		505523E818E3EFC5000DF8E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A189B218E776DD0098C446 /* Integration Tests.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -621,7 +620,6 @@
 		};
 		505523E918E3EFC5000DF8E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A189B218E776DD0098C446 /* Integration Tests.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
