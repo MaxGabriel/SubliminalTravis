@@ -14,8 +14,8 @@ before_install:
 
 script: >
     "Integration Tests/Subliminal/Supporting Files/CI/subliminal-test"
-    -project "$PROJECT_PATH" \
-    -sim_device "$DEVICE" \
-    -sim_version "$VERSION" \
-    -login_password "$PASSWORD" \
+    -project "$PROJECT_PATH"
+    -sim_device "$DEVICE"
+    -sim_version "$VERSION"
+    -login_password "$PASSWORD"
     -output "$OUTPUT_DIR"
